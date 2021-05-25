@@ -4,7 +4,7 @@ Create a single button in the middle of the page, clicking on which opens up a m
 - Modal window has fixed width and should always be located in the center of the screen.
 - Modal window can be closed by clicking on the background, cross sign in the left top corner and the "Cancel" button.
 - "Uninstall" button closes the modal window and shows a system alert with the text.
-- Open Sans font is used
+- Open Sans font is used.
 You can use HTML, CSS (or any preprocessor), vanilla JS or jQuery(NOT jQuery UI).
 
 Icons:
