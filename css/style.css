@@ -1,0 +1,116 @@
+/* line 3, ../../Users/okhri/Desktop/clario-popup/scss/style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 7, ../../Users/okhri/Desktop/clario-popup/scss/style.scss */
+body {
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 17, ../../Users/okhri/Desktop/clario-popup/scss/style.scss */
+.button {
+  height: 40px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(105, 96, 96, 0);
+  border: 3px solid #a8acb3;
+  border-radius: 5px;
+  color: #8c94a4;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 15px;
+}
+
+/* line 33, ../../Users/okhri/Desktop/clario-popup/scss/style.scss */
+.button:hover {
+  background-color: white;
+  border: 3px solid black;
+  box-shadow: 0px 3px 10px rgba(41, 43, 42, 0.4);
+  color: black;
+  transform: translateY(-3px);
+}
+
+/* line 41, ../../Users/okhri/Desktop/clario-popup/scss/style.scss */
+.button--warning {
+  background-color: #ff3b30;
+  color: #ffffff;
+  border-color: #ff3b30;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* line 49, ../../Users/okhri/Desktop/clario-popup/scss/style.scss */
+.popup {
+  z-index: 100000;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 0vh;
+  background-color: #d48f8f;
+  overflow: scroll;
+}
+
+/* line 59, ../../Users/okhri/Desktop/clario-popup/scss/style.scss */
+.popup--active {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(204, 191, 191, 0.548);
+  transition: background-color 0.4s;
+}
+
+/* line 67, ../../Users/okhri/Desktop/clario-popup/scss/style.scss */
+.popup__wrapper {
+  transform: scale(1);
+  width: 600px;
+  height: 400px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 26px;
+  color: #3d424d;
+  text-align: center;
+  background-color: white;
+  border: 2px solid #babec5;
+  border-radius: 3px;
+  padding: 60px;
+}
+
+/* line 81, ../../Users/okhri/Desktop/clario-popup/scss/style.scss */
+.popup__warning {
+  width: 100px;
+  height: auto;
+}
+
+/* line 86, ../../Users/okhri/Desktop/clario-popup/scss/style.scss */
+.popup__text {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  line-height: 30px;
+}
+
+/* line 92, ../../Users/okhri/Desktop/clario-popup/scss/style.scss */
+.popup__buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 98, ../../Users/okhri/Desktop/clario-popup/scss/style.scss */
+.popup__close {
+  position: absolute;
+  background-image: url("../img/icon-popup-close.svg");
+  width: 24px;
+  height: 24px;
+  top: 20px;
+  left: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
